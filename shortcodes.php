@@ -444,7 +444,7 @@ function all_testimonial($atts) {
     return $html . $output;
 }
 
-add_shortcode('all-testimonial', 'all_testimonial');
+// add_shortcode('all-testimonial', 'all_testimonial');
 
 function all_testimonial1($atts) {
     global $post;
@@ -586,7 +586,7 @@ function all_testimonial1($atts) {
 
     return $html . $output;
 }
-add_shortcode('testimonial-slider', 'all_testimonial1');
+// add_shortcode('testimonial-slider', 'all_testimonial1');
 
 function all_testimonial12($atts) {
     global $post;
@@ -779,7 +779,7 @@ function all_testimonialmenu() {
 
     return $dropdown . $output;
 }
-add_shortcode('dropdown-menu', 'all_testimonialmenu');
+// add_shortcode('dropdown-menu', 'all_testimonialmenu');
 
 function all_testimonialmenu12() {
     $count_args = [
@@ -793,7 +793,7 @@ function all_testimonialmenu12() {
     return $total_count;
 }
 
-add_shortcode('total-testimonial', 'all_testimonialmenu12');
+// add_shortcode('total-testimonial', 'all_testimonialmenu12');
 
 function random_slide($atts) {
     global $post;
